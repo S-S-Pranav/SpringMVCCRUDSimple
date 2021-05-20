@@ -21,6 +21,7 @@ public class EmpController {
     public String showform(Model m){  
     	m.addAttribute("command", new Emp());
     	System.out.println("Showform is enabled");
+    	System.out.println("Showform is enabled......");
     	return "empform"; 
     }  
     /*It saves object into database. The @ModelAttribute puts request data 
